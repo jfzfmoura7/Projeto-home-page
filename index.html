@@ -20,31 +20,53 @@
 
                 <nav class="menu-desktop">
                     <ul>
-                        <li><a href="">Início</a></li>
-                        <li><a href="">Especialidades</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Projetos</a></li>
+                        <li><a href="#topo-do-site">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
                     </ul>
                 </nav>
 
                 <div class="btn-contato">
-                    <a href="#">
+                    <a href="#formulario">
                         <button>Contato</button>
                     </a>
+                </div><!--btn-contato-->
+
+                <div class="btn-abrir-menu" id="btn-menu">
+                    <i class="bi bi-list"></i>
                 </div>
+
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-fechar">
+                        <i class="bi bi-x"></i>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="#topo-do-site">Início</a></li>
+                            <li><a href="#especialidades">Especialidades</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#portifolio">Projetos</a></li>
+                            <li><a href="#formulario">Contato</a></li>
+                        </ul>
+                    </nav>
+
+                </div><!--menu-mobile-->
+                <div class="overlay-menu" id="overlay-menu"></div>
             </div><!--header-->
         </header>
 
         <main>
-            <section class="topo-do-site">
+            <section id="topo-do-site" class="topo-do-site">
                 <div class="interface">
                     <div class="flex">
                         <div class="txt-topo-site">
                             <h1>PROJETO SITE JANEIRO 2024<span>.</span></h1>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed exercitationem, facere ullam, consequatur quasi accusantium praesentium, quos repellat optio enim neque. Doloribus labore nisi repudiandae adipisci exercitationem magnam eveniet possimus!</p>
+                            <p>Esse site foi feito no intuito de aplicar os aprendizados em HTML, CSS e JavaScript, linguagens aprendidas por mim durante o mês de janeiro de 2024. Esse layout foi feito usando o código de um Youtuber chamado Inteliogia. As imagens no site com exceção do logo da i9aTech foram usadas por ele em seus vídeos</p>
                         
                             <div class="btn-contato">
-                                <a href="#">
+                                <a href="#formulario">
                                     <button>Entre em contato</button>
                                 </a>
                             </div>
@@ -57,33 +79,39 @@
                 </div><!--interface-->
             </section><!--topo-do-site-->
 
-            <section class="especialidades">
+            <section id="especialidades" class="especialidades">
                 <div class="interface">
                     <h2 class="title">MINHAS <span>ESPECIALIDADES.</span></h2>
                     <div class="flex">
                         <div class="especialidades-box">
                             <i class="bi bi-code-square"></i>
                             <h3>HTML</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint sapiente nam praesentium est tenetur amet placeat reprehenderit quo? Optio architecto magni ducimus provident tenetur numquam quis deleniti amet quae vitae!</p>
+                            <p>Programação em HTML</p>
                                                             
                         </div><!--especialidades-box-->
                         <div class="especialidades-box">
                             <i class="bi bi-braces"></i>
                             <h3>CSS</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint sapiente nam praesentium est tenetur amet placeat reprehenderit quo? Optio architecto magni ducimus provident tenetur numquam quis deleniti amet quae vitae!</p>
+                            <p>Programação em CSS</p>
 
                         </div><!--especialidades-box-->
                         <div class="especialidades-box">
                             <i class="bi bi-filetype-js"></i>
                             <h3>JavaScript</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint sapiente nam praesentium est tenetur amet placeat reprehenderit quo? Optio architecto magni ducimus provident tenetur numquam quis deleniti amet quae vitae!</p>
+                            <p>Programação em JavaScript</p>
+
+                        </div><!--especialidades-box-->
+                        <div class="especialidades-box">
+                            <i class="bi bi-file-earmark-code"></i>
+                            <h3>Portugol</h3>
+                            <p>Programação em Portugol</p>
 
                         </div><!--especialidades-box-->
                     </div><!--flex-->
                 </div><!--interface-->
             </section><!--especialidades-->
 
-            <section class="sobre">
+            <section id="sobre" class="sobre">
                 <div class="interface">
                     <div class="flex">
                         <div class="img-sobre">
@@ -91,8 +119,8 @@
                         </div><!--img-sobre-->
                         <div class="txt-sobre">
                             <h2>MUITO PRAZER, <span>SOU JOÃO FELIPE</span></h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint libero fugit cumque provident obcaecati. Iusto optio, ratione quis voluptas amet saepe perspiciatis sint cumque iure, asperiores perferendis id esse earum.</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ducimus, nihil hic maiores tempora tenetur adipisci aspernatur debitis dolorum, illo id magnam quo iure et voluptatibus necessitatibus odit libero obcaecati.</p>
+                            <p>Me chamo João Felipe, tenho 17 anos e faço faculdade de Análise e desenvolvimento de sistemas na Universidade Católica de Brasília(UCB). Comecei a programar no ano de 2024 mesmo e comecei aprendendo a linguagem de programação Portugol. Em seguida, aprendi HTML, CSS e JavaScript, que até o presente momento(2 de fevereiro de 2024) são as únicas linguagens que sei.</p>
+                            <p>Terminei meu ensino médio no ano de 2023 e logo em seguida comecei a trabalhar na empresa que estou hoje, a i9aTech, e foi ali que me ensinaram a progrmar nas lingagens já citadas.</p>
                             <div class="btn-social">
                                 <a href="https://www.instagram.com/joaofzfm/" target="blank"><button><i class="bi bi-instagram"></i></button></a>
                                 <a href="https://github.com/jfzfmoura7" target="blank"><button><i class="bi bi-github"></i></button></a>
@@ -103,7 +131,7 @@
                 </div><!--interface-->
             </section><!--sobre-->
 
-            <section class="portifolio">
+            <section id="portifolio" class="portifolio">
                 <div class="interface">
                     <h2 class="title">MEU <span>PORTIFÓLIO.</span></h2>
                     <div class="flex">
@@ -120,15 +148,15 @@
                 </div><!--interface-->
             </section><!--portifolio-->
             
-            <section class="formulario">
+            <section id="formulario" class="formulario">
                 <div class="interface">
                     <h2 class="title">FALA <span>COMIGO.</span></h2>
 
-                    <form>
-                        <input type="text" name="" id="" placeholder="Seu nome:">
-                        <input type="text" name="" id="" placeholder="Seu e-mail">
-                        <input type="text" name="" id="" placeholder="Seu celular:">
-                        <textarea name="" id="" placeholder="Mensagem"></textarea>
+                    <form id="form">
+                        <input type="text" name="" id="name" placeholder="Seu nome:">
+                        <input type="text" name="" id="email" placeholder="Seu e-mail:">
+                        <input type="text" name="" id="celular" placeholder="Seu celular(Formato: +55 XX XXXXX-XXXX):">
+                        <textarea name="" id="message" placeholder="Mensagem"></textarea>
                         <div class="btn-enviar"><input type="submit" value="Enviar"></div>
                     </form>
                 </div><!--interface-->
@@ -151,11 +179,13 @@
                     </div>  
                 </div><!--line-footer-->
 
-                <div class="line-footer borda">
+                <div class="line-footer line-footer-de-baixo">
                     <p><i class="bi bi-envelope"></i><a href="mailto:joao.moura@i9atech.com">joao.moura@i9atech.com</a></p>
+                    <p>Scs Qd. 6 bl. A Ed. Arnaldo Villares sala 504</p>
+                    <p>Brasília, 2 de fevereiro de 2024</p>
                 </div><!--line-footer-->
             </div><!--interface-->
         </footer>
-
+        <script src="script/script.js" defer></script>
     </body>
 </html>
